@@ -1,0 +1,12 @@
+{
+    "name": "hiorgserver/api-oauth-starter",
+    "type": "project",
+    "require": {
+        "league/oauth2-client": "^2.7"
+    },
+    "authors": [
+        {
+            "name": "HiOrg Server GmbH"
+        }
+    ]
+}

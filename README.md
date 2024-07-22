@@ -7,8 +7,14 @@ This package demonstrates how to access the HiOrg-Server API from a php web appl
 To try it out, you can download the package:
 
 ```bash
-git clone URL
+git clone https://github.com/hiorg-server/api-oauth-starter.git
 cd api-oauth-starter
+```
+
+and install dependencies via [composer](https://getcomposer.org/):
+
+```bash
+composer install
 ```
 
 Then copy the config.sample.php:
@@ -17,7 +23,7 @@ Then copy the config.sample.php:
 cp config.sample.php config.php
 ```
 
-and enter the configuration for your OAuth2 client in the config.php (please contact support@hiorg-server.de to get an OAuth client).
+and enter the configuration for your OAuth2 client in the config.php (please contact support@hiorg-server.de to get OAuth client credentials).
 
 After that, you can use the built-in PHP web server:
 
